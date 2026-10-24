@@ -1,0 +1,114 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with a modern gradient background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Clean Card Layout */
+.profile-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; /* Fixed width for desktop */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: 1px solid #eaeaea;
+}
+
+/* Header Text Styling */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: #2d3748;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header .subtitle {
+    color: #718096;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Section Headings */
+h2 {
+    color: #4a5568;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+    color: #4a5568;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Skills List Styling */
+.skills ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.skills ul li {
+    background-color: #edf2f7;
+    color: #2b6cb0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    border-left: 4px solid #4299e1;
+}
+
+/* Contact Button Styling */
+.contact {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.email-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4299e1;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.email-btn:hover {
+    background-color: #2b6cb0;
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+}
